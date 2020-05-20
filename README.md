@@ -39,7 +39,15 @@
                 }
 
                 }
-            
+                
+## Document to PDF,TXT:
+
+        Document doc = new Document("F:\\starwalt\\ava aspose jars\\tt.doc");
+
+          doc.save("F:\\starwalt\\ava aspose jars\\testydf.pdf");
+
+          doc.save("F:\\starwalt\\ava aspose jars\\tt.txt", SaveFormat.TEXT);
+
             
  ## SaveFormat :
  
